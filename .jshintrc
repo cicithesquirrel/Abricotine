@@ -11,5 +11,6 @@
     "jquery": true,
     "eqnull": true,
     "worker": true,
-    "eqeqeq": true
+    "eqeqeq": true,
+    "maxcomplexity": 10
 }
