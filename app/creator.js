@@ -90,7 +90,7 @@ creator.check = function () {
         // Read schema
         files.readFile(constants.path.schema, function (data) {
             // Non-matching schema
-            if (!data || JSON.parse(data).schema != pkg.abricotine.schema) {
+            if (!data || JSON.parse(data).schema !== pkg.abricotine.schema) {
                 return askForReset(resolve);
             }
             resolve();

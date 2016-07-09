@@ -10,5 +10,6 @@
     "node": true,
     "jquery": true,
     "eqnull": true,
-    "worker": true
+    "worker": true,
+    "eqeqeq": true
 }
