@@ -19,7 +19,8 @@
     "packager": "node scripts/packager.js",
     "postinstall": "electron-rebuild",
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint --reporter=node_modules/jshint-stylish app/**.js"
   },
   "author": {
     "name": "Thomas Brouard",
@@ -57,6 +58,8 @@
     "commander": "^2.9.0",
     "electron-packager": "^7.0.4",
     "electron-rebuild": "^1.1.5",
+    "jshint": "latest",
+    "jshint-stylish": "latest",
     "pretty-ms": "^2.1.0"
   },
   "abricotine": {
